@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 PT INCAP Digital Teknologi
+# 🌐 INCAP
 
 ### *"Our Achievements is Your Success"*
 
@@ -10,7 +10,7 @@
 
 ---
 
-**PT INCAP Digital Teknologi** adalah perusahaan penyedia solusi teknologi informasi modern terdepan yang berfokus pada ekosistem digital yang **aman, cerdas, dan inovatif**. Kami membantu perusahaan dan instansi mempercepat transformasi digital melalui integrasi perangkat lunak terdistribusi, kecerdasan buatan (AI/Data Science), Internet of Things (IoT), dan perlindungan keamanan siber berskala tinggi.
+**INCAP** adalah perusahaan startup penyedia solusi teknologi informasi modern terdepan yang berfokus pada ekosistem digital yang **aman, cerdas, dan inovatif**. Kami membantu perusahaan dan instansi mempercepat transformasi digital melalui integrasi perangkat lunak terdistribusi, kecerdasan buatan (AI/Data Science), Internet of Things (IoT), dan perlindungan keamanan siber berskala tinggi.
 
 ---
 
