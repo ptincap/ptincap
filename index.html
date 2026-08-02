@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT INCAP | Solutions for Safe, Smart & Innovative Ecosystem</title>
+    <meta name="description" content="PT INCAP penyedia solusi IT terdepan: Web & Mobile App, Cyber Security & Digital Forensics, AI/Data Science, dan IoT Systems.">
+    <meta name="keywords" content="PT INCAP, Konsultan IT, Cyber Security, Digital Forensics, IoT, AI, Machine Learning, Web Development, Mobile App">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="PT INCAP | Safe, Smart & Innovative Ecosystem">
+    <meta property="og:description" content="Our Achievements is Your Success. Solusi IT Terintegrasi: Web, Mobile, AI, IoT & Cyber Security.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ptincap.github.io">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Dynamic Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🌐</span> INCAP<span class="logo-accent">.ID</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#services" class="nav-link">Layanan</a></li>
+                <li class="nav-item"><a href="#workflow" class="nav-link">Metodologi</a></li>
+                <li class="nav-item"><a href="#techstack" class="nav-link">Tech Stack</a></li>
+                <li class="nav-item"><a href="#rab-calculator" class="nav-link">Kalkulator RAB</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+                <li class="nav-item">
+                    <a href="https://incap-demo-lab.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn-demo-badge">
+                        ⚡ Streamlit Lab Demo <span class="badge-pulse"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span> Startup Solusi IT Terintegrasi
+            </div>
+            <h1 class="hero-title">
+                Our Achievements is <br>
+                <span class="gradient-text">Your Success</span>
+            </h1>
+            <p class="hero-description">
+                PT INCAP membantu perusahaan mempercepat transformasi digital melalui ekosistem yang 
+                <strong>aman, cerdas, dan inovatif</strong> — memadukan Software Terdistribusi, Artificial Intelligence (AI), 
+                Internet of Things (IoT), dan Keamanan Siber kelas White Hacker.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">
+                    <span>Hubungi Tim Konsultan</span> ↗
+                </a>
+                <a href="https://incap-demo-lab.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                    <span>Uji Demo Interaktif (Streamlit)</span> 🧪
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Pilar Solusi Utuh</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">Tahap PoC Terukur</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Standar White Hacker</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Solutions Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CORE SOLUTIONS</span>
+                <h2 class="section-title">🚀 Layanan Utama PT INCAP</h2>
+                <p class="section-subtitle">Solusi end-to-end terintegrasi yang dirancang untuk pertumbuhan bisnis berdaya saing tinggi.</p>
+            </div>
+
+            <div class="services-grid">
+                
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="card-glass-glow"></div>
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-name">Web & Desktop Application</h3>
+                    <p class="service-desc">Arsitektur terdistribusi modern untuk performa tinggi dan skala besar.</p>
+                    <ul class="service-list">
+                        <li>Microservices & Cloud-Native Architecture</li>
+                        <li>High Availability & Scalable Database Systems</li>
+                        <li>AI & Machine Learning Integrated Web Apps</li>
+                        <li>Price Prediction, Sentiment Analysis & Chatbots</li>
+                    </ul>
+                    <a href="https://incap-demo-lab.streamlit.app" target="_blank" class="card-link">Uji Demo AI Web ➔</a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="card-glass-glow"></div>
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-name">Mobile Application (iOS & Android)</h3>
+                    <p class="service-desc">Pengembangan aplikasi mobile native & cross-platform responsif.</p>
+                    <ul class="service-list">
+                        <li>Native (Swift/Kotlin) & Cross-Platform (Flutter/Dart)</li>
+                        <li>Hardware & Sensor Integration</li>
+                        <li>Real-Time Data Synchronization</li>
+                        <li>Local Data Encryption & Intuitive UI/UX</li>
+                    </ul>
+                    <a href="#contact" class="card-link">Konsultasi Mobile ➔</a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="card-glass-glow"></div>
+                    <div class="service-icon">🛡️</div>
+                    <h3 class="service-name">Cyber Security & Digital Forensics</h3>
+                    <p class="service-desc">Perlindungan aset digital dari potensi ancaman siber secara proaktif.</p>
+                    <ul class="service-list">
+                        <li>White Hacker Activity / Penetration Testing</li>
+                        <li>Digital Forensics & Cyber Incident Analysis</li>
+                        <li>InfoSec Architecture & Risk Management</li>
+                        <li>Comprehensive Security Audit</li>
+                    </ul>
+                    <a href="https://incap-demo-lab.streamlit.app" target="_blank" class="card-link">Uji Security Scan ➔</a>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="card-glass-glow"></div>
+                    <div class="service-icon">📡</div>
+                    <h3 class="service-name">IoT & Embedded Systems</h3>
+                    <p class="service-desc">Ekosistem pemantauan & kontrol perangkat keras secara real-time.</p>
+                    <ul class="service-list">
+                        <li>Protocol Integration: MQTT, HTTP, Modbus</li>
+                        <li>Firmware Development & Embedded Hardware</li>
+                        <li>Real-Time Monitoring Dashboards</li>
+                        <li>Smart Building, Fleet Management & Agriculture</li>
+                    </ul>
+                    <a href="https://incap-demo-lab.streamlit.app" target="_blank" class="card-link">Uji Live Telemetry ➔</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PoC Workflow Section -->
+    <section id="workflow" class="section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">WORKFLOW & POC</span>
+                <h2 class="section-title">🔄 Metodologi Pengembangan Berbasis Bukti</h2>
+                <p class="section-subtitle">Setiap proyek dilaksanakan melalui 7 siklus pengembangan terstruktur (Business-Value Driven):</p>
+            </div>
+
+            <div class="workflow-timeline">
+                <div class="workflow-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>Business Question & Value Definition</h4>
+                        <p>Mengidentifikasi masalah bisnis utama dan menentukan target nilai yang ingin dicapai.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>Proof of Concept (PoC) & Requirement Gathering</h4>
+                        <p>Membuat pengujian konsep awal dan pengumpulan spesifikasi kebutuhan teknis.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>Data Collection & System Architecture</h4>
+                        <p>Pengumpulan data, desain skema database, dan perencanaan arsitektur cloud/microservices.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h4>Feature Engineering & Development / Coding</h4>
+                        <p>Pemrograman perangkat lunak, pembangunan model AI/ML, dan integrasi protokol hardware.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h4>Security Audit & Testing (White Hacker)</h4>
+                        <p>Pengujian penetrasi keamanan siber ketat oleh peretas etis sebelum sistem dirilis.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h4>Model & System Deployment</h4>
+                        <p>Peluncuran aplikasi ke lingkungan produksi terisolasi dengan zero-downtime pipeline.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">07</div>
+                    <div class="step-content">
+                        <h4>Production & Maintenance</h4>
+                        <p>Pemantauan pemeliharaan rutin, penanganan insiden, dan peningkatan sistem berkelanjutan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Ecosystem Section -->
+    <section id="techstack" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">EXPERTISE ECOSYSTEM</span>
+                <h2 class="section-title">🛠️ Ekosistem Teknologi INCAP</h2>
+                <p class="section-subtitle">Didukung oleh stack pemrograman & infrastruktur modern berstandar industri.</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-box">
+                    <span class="tech-category">Software Engineering</span>
+                    <div class="tech-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Go</span>
+                        <span class="tag">Dart (Flutter)</span>
+                        <span class="tag">Kotlin / Swift</span>
+                        <span class="tag">C/C++ Embedded</span>
+                    </div>
+                </div>
+                <div class="tech-box">
+                    <span class="tech-category">Cloud & Databases</span>
+                    <div class="tech-tags">
+                        <span class="tag">Docker</span>
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Microservices</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Redis</span>
+                    </div>
+                </div>
+                <div class="tech-box">
+                    <span class="tech-category">AI & Data Science</span>
+                    <div class="tech-tags">
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Sentiment Engine</span>
+                        <span class="tag">Dynamic Pricing</span>
+                        <span class="tag">Recommender</span>
+                    </div>
+                </div>
+                <div class="tech-box">
+                    <span class="tech-category">Cyber Security & IoT</span>
+                    <div class="tech-tags">
+                        <span class="tag">Web & Mobile PenTest</span>
+                        <span class="tag">Digital Forensics</span>
+                        <span class="tag">OWASP Audit</span>
+                        <span class="tag">MQTT</span>
+                        <span class="tag">Modbus</span>
+                        <span class="tag">Telemetry</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive RAB Estimator Tool -->
+    <section id="rab-calculator" class="section glass-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">SIMULATION TOOL</span>
+                <h2 class="section-title">📊 Estimator Simulasi RAB Proyek</h2>
+                <p class="section-subtitle">Hitung estimasi alokasi waktu dan kebutuhan teknis proyek Anda secara transparan.</p>
+            </div>
+
+            <div class="rab-calculator-card">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="solusi-type">Pilar Solusi Utama:</label>
+                        <select id="solusi-type" class="form-control">
+                            <option value="web">💻 Web & Desktop Application (Microservices)</option>
+                            <option value="mobile">📱 Mobile App (iOS & Android)</option>
+                            <option value="security">🛡️ Cyber Security & Penetration Testing</option>
+                            <option value="iot">📡 IoT Real-Time System & Sensors</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Integrasi Modul Tambahan:</label>
+                        <div class="checkbox-options">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="modul-ai" value="ai">
+                                <span>🤖 Artificial Intelligence / ML Model</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="modul-sec" value="sec">
+                                <span>🔐 Security Hardening & Forensics</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="modul-iot" value="iot">
+                                <span>📡 Perangkat Hardware IoT / Modbus</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="scale-tier">Skala Target Pengguna (Tier):</label>
+                        <select id="scale-tier" class="form-control">
+                            <option value="poc">PoC / MVP Test Phase (< 1.000 Pengguna)</option>
+                            <option value="medium">Medium Enterprise (1.000 - 50.000 Pengguna)</option>
+                            <option value="high">High Availability Enterprise (> 100.000 Pengguna)</option>
+                        </select>
+                    </div>
+
+                    <button type="button" onclick="calculateRAB()" class="btn-primary btn-block">
+                        Hitung Simulasi Kebutuhan Proyek ➔
+                    </button>
+                </div>
+
+                <div id="rab-output" class="calculator-output hidden">
+                    <div class="output-header">
+                        <h4>📋 Hasil Estimasi Rencana Proyek</h4>
+                        <span class="badge-status">Siap Diuji di PoC</span>
+                    </div>
+                    <div class="output-body" id="rab-output-content">
+                        <!-- Dynamic JS Output -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fast Consultation Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">HUBUNGI KAMI</span>
+                    <h2>Siap Memulai Transformasi Digital Bersama INCAP?</h2>
+                    <p>Diskusi awal proyek dan estimasi RAB dapat dilakukan langsung melalui konsultasi gratis dengan tim spesialis kami.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email Resmi:</strong>
+                                <a href="mailto:ptincap@gmail.com">ptincap@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <span class="contact-icon">🌐</span>
+                            <div>
+                                <strong>Situs Web Utama:</strong>
+                                <a href="https://ptincap.github.io">ptincap.github.io</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <span class="contact-icon">🧪</span>
+                            <div>
+                                <strong>Portal Demo Streamlit:</strong>
+                                <a href="https://incap-demo-lab.streamlit.app" target="_blank">incap-demo-lab.streamlit.app</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <h3>Formulir Konsultasi Cepat</h3>
+                    <form id="lead-form" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" id="contact-name" class="form-control" placeholder="Nama Lengkap / Instansi" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact-email" class="form-control" placeholder="Alamat Email Perusahaan" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contact-message" class="form-control" rows="4" placeholder="Jelaskan kebutuhan proyek atau konsultasi Anda..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-block">Kirim Pesan Konsultasi 🚀</button>
+                    </form>
+                    <div id="form-feedback" class="form-feedback hidden"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-icon">🌐</span> INCAP<span class="logo-accent">.ID</span>
+                <p>PT INCAP Digital Teknologi — "Our Achievements is Your Success"</p>
+            </div>
+            <div class="footer-links">
+                <a href="#services">Layanan</a>
+                <a href="#workflow">Workflow</a>
+                <a href="#rab-calculator">Kalkulator RAB</a>
+                <a href="https://incap-demo-lab.streamlit.app" target="_blank">Streamlit Demo Lab</a>
+            </div>
+            <div class="footer-copy">
+                <p>© 2026 PT INCAP Digital Teknologi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/rab-calculator.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
