@@ -1,0 +1,14 @@
+# Credentials & Secrets
+*.env
+*.pem
+*.key
+credentials.json
+secrets.toml
+
+# OS & Temp
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/
