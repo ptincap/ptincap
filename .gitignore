@@ -130,3 +130,11 @@ temp/
 htmlcov/
 .tox/
 .nox/
+
+# workfiles
+workfiles/
+*/workfiles/
+
+# panduan deployment
+panduan_deployment.md
+/panduan_deployment.md
