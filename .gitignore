@@ -1,0 +1,132 @@
+# ==============================================================================
+# PT INCAP - GITIGNORE (CREDENTIALS, SECRETS, VENV & SYSTEM FILES)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Credentials, Passwords & API Keys (SANGAT KRUSIAL)
+# ------------------------------------------------------------------------------
+*.env
+*.env.*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys & Certificates
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+*.p12
+*.asc
+*.gpg
+
+# JSON & Config Credentials
+credentials.json
+client_secret*.json
+service_account*.json
+auth*.json
+config.json
+config.local.json
+secrets.toml
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------------------------
+# 2. Virtual Environments & Dependencies (Python)
+# ------------------------------------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+lib/
+include/
+share/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------------------------------------------
+# 3. Node.js & Web Assets (Jika Ada Build Node)
+# ------------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# 4. OS & IDE System Files
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code & JetBrains IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ------------------------------------------------------------------------------
+# 5. Logs, Temp & Testing Files
+# ------------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
