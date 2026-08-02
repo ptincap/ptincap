@@ -104,7 +104,7 @@ Setiap proyek di INCAP dilaksanakan melalui siklus pengembangan terstruktur berb
 
 Kami siap menjadi mitra teknologi terpercaya untuk kebutuhan transformasi digital perusahaan Anda.
 
-- 🌐 **Situs Web:** [www.incap.id](https://www.incap.id)
+- 🌐 **Situs Web:** [www.incap.id](https://ptincap.github.io/)
 - 📧 **Email:** [ptincap@gmail.com](mailto:ptincap@gmail.com)
 - 💼 **Layanan Konsultasi:** Jasa Konsultan IT, Pengembangan Sistem Digital, Audit Keamanan Siber, & Solusi IoT.
 
